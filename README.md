@@ -1,6 +1,7 @@
 # Data structures and algorithms
 
-Using this repo to study data structures and algorithms.
+I am using this repo to study data structures and algorithms.
+
 
 ## Roadmap
 
@@ -16,6 +17,24 @@ Using this repo to study data structures and algorithms.
 10. Graphs
 11. Algorithms design
 12. Complexity
+
+## How to run
+
+### Dependencies
+
+- [Node.js ](https://nodejs.org/) ^20.17.0
+- [PNPM](https://pnpm.io/installation) (optional, you can use your preferred package manager such as `npm` or `yarn`)
+
+### Run tests
+
+```sh
+pnpm test
+```
+
+- run in watch mode:
+```sh
+pnpm test:watch
+```
 
 ## Resources
 
