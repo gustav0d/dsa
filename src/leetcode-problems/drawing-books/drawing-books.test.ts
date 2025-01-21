@@ -1,5 +1,4 @@
-import { expect, test } from "@jest/globals";
-import { describe } from "node:test";
+import { describe, expect, test } from "@jest/globals";
 import { bruteForce, optimized } from "./drawing-books";
 
 // https://www.hackerrank.com/challenges/drawing-book/
