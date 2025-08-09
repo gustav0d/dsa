@@ -2,6 +2,9 @@
 
 I am using this repo to study data structures and algorithms.
 
+> [!NOTE]
+> I have a repo where I apply data structure and algorithms in a C++ project using external sort and external search. You can check it out on [dsa-binary-crud](https://github.com/gustav0d/dsa-binary-crud)
+
 
 ## Roadmap
 
