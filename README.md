@@ -24,6 +24,9 @@ I am using this repo to study data structures and algorithms.
 ## How to run
 
 You need Node.js LTS installed.
+
+```bash
+mise install
 ```
 
 ### Run tests
@@ -37,6 +40,13 @@ pnpm test
 pnpm test:watch
 ```
 
+### Typecheck
+
+```sh
+pnpm typecheck
+```
+
 ## Resources
 
-- [javascript-datastructures-algorithms](https://github.com/loiane/javascript-datastructures-algorithms) by [Loiane Groner](https://github.com/loiane);
+- Introduction to Algorithms, (the Cormen one). [link](https://link.amazon/B0bJHE5u1) (affiliate)
+- [Data structures and algorithms in JavaScript by Loiane Groner](https://github.com/loiane/javascript-datastructures-algorithms);
