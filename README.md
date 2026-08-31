@@ -3,7 +3,7 @@
 I am using this repo to study data structures and algorithms.
 
 > [!NOTE]
-> I have a repo where I apply data structure and algorithms in a C++ project using external sort and external search. You can check it out on [dsa-binary-crud](https://github.com/gustav0d/dsa-binary-crud)
+> I have a repo where I apply data structure and algorithms in a C++ project using external sort and external search. You can check it out on [this binary crud example in C++](https://github.com/gustav0d/dsa-binary-crud)
 
 
 ## Roadmap
@@ -23,10 +23,8 @@ I am using this repo to study data structures and algorithms.
 
 ## How to run
 
-### Dependencies
-
-- [Node.js ](https://nodejs.org/) ^20.17.0
-- [PNPM](https://pnpm.io/installation) (optional, you can use your preferred package manager such as `npm` or `yarn`)
+You need Node.js LTS installed.
+```
 
 ### Run tests
 
