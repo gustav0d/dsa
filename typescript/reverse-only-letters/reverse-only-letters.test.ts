@@ -1,14 +1,15 @@
-import { describe, expect, it } from "@jest/globals";
-import { reverseOnlyLetters } from "./reverse-only-letters";
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
+import { reverseOnlyLetters } from "./reverse-only-letters.ts";
 
 describe('Reverse only letters', () => {
   it('Should work for ab-cd', () => {
-    expect(reverseOnlyLetters('ab-cd')).toBe('dc-ba');
+    assert.strictEqual(reverseOnlyLetters('ab-cd'), 'dc-ba');
   });
   it('Should work for a-bC-dEf-ghIj', () => {
-    expect(reverseOnlyLetters('a-bC-dEf-ghIj')).toBe('j-Ih-gfE-dCba');
+    assert.strictEqual(reverseOnlyLetters('a-bC-dEf-ghIj'), 'j-Ih-gfE-dCba');
   });
   it('Should work for Test1ng-Leet=code-Q!', () => {
-    expect(reverseOnlyLetters('Test1ng-Leet=code-Q!')).toBe('Qedo1ct-eeLg=ntse-T!');
+    assert.strictEqual(reverseOnlyLetters('Test1ng-Leet=code-Q!'), 'Qedo1ct-eeLg=ntse-T!');
   });
 });

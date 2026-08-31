@@ -3,11 +3,15 @@
   "author": "Gustavo Dantas <oi@gusdantas.dev>",
   "version": "1.0.0",
   "description": "Data structures and algorithms",
+  "type": "module",
   "scripts": {
-    "typecheck": "pnx tsc --noEmit"
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "typecheck": "tsc --noEmit"
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^24.13.3",
     "typescript": "^7.0.2"
   }
 }

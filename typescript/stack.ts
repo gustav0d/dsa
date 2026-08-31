@@ -1,4 +1,4 @@
-import { Nullable } from './nullable';
+import type { Nullable } from './nullable.ts';
 
 type StackItems<T> = {
   [key: number]: T;
